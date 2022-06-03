@@ -1,0 +1,12 @@
+let mul = (*)
+    add = (+)
+    sub = (-)
+    div howMuch what = what / howMuch
+    pow toWhat what = what ** toWhat
+    oneMinus a = 1 - a
+    noteToSpeed n = 2**(n/12)
+    mute p = p silence
+    mutep _ = silence
+
+
+d1 $ sound "kicklayer*8"
